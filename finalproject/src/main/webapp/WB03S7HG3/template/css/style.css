@@ -1103,7 +1103,7 @@ Version: 1.0
      background: url(../images/get-started.jpg) center top no-repeat;
      background-size: cover;
      text-align: center;
-     padding: 60px 0;
+     padding: 20px 0;
 }
  .get-started .content {
      z-index: 5;
