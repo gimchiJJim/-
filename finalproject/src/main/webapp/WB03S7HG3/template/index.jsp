@@ -144,23 +144,46 @@
                      <h3>최신 리뷰</h3>
                      <div class="view recent-slider recommended-slider">
                         <div>
-                           <a href="product-detail.html">
-                           
-                           </a>
                            <div style="width: 300px" class="inner-slider">
+                              <a href="product.html"> </a>
                               <div class="inner-wrapper">
+                              <a href="product.html"> </a>
                                  <div class="d-flex align-items-center">
-                                    <span class="seller-image"> 
-                                    <img src="images/omelet.png">
+                                    <span class="seller-image">
+                                    <svg style="float: right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1792" width="15" height="15">
+                                      <path style="float: right" fill="currentColor"
+                                         d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z">
+                                      </path> 
+                                    </svg> 
+                                    <img style="margin: 50px 10px 25px 10px" src="images/omelet.png">  
+                                    <!-- 회원 이름 옆에 회원 이미지 넣기 
+                                    <img style="margin: 20px" src="images/omelet.png">
+                                    -->
                                     </span>
-                                    <span class="seller-name">
-                                    <a href="profile.html">Marcin Kowalski</a>
+                                    <!-- 이름과 회원 이미지 사진 누를시 리뷰 쓴 회원 페이지 이동 -->
+                                    <!-- 홍길동 부분에 p태그 추가 했는데 추후 다시 없애고, 리뷰 : 재밌어용 부분의 마진도 없앨지 고민 -->
+                                    <a href="profile.html"><p>홍길동</p></a>
+                                    <!-- 이름 옆에 별점 넣기 - div 안됨 -->
+                                    <div style="float: right">
+                                    <!--
+                                    <svg style="float: right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1792" width="15" height="15">
+                                      <path style="float: right" fill="currentColor"
+                                         d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z">
+                                      </path> 
+                                    </svg>
+                                    --> 
+                                    </div>
+                                    <!--
                                     <span class="level hint--top level-one-seller">
                                     Level 1 Seller
                                     </span>
+                                    -->
                                     </span>
                                  </div>
-                                 <h3>I will create professional audio ads or radio commercials for your project</h3>
+                                 <!-- 리뷰 누를시 리류 메인 페이지 이동 -->
+                                 <a href="product.html">
+                                 <h3 style="margin-bottom: -5px">리뷰 : 너무 재밌어용</h3>
+                                 </a>
                                  <div class="content-info">
                                     <div class="rating-wrapper">
                                        <span class="gig-rating text-body-2">
@@ -168,17 +191,19 @@
                                              <path fill="currentColor"
                                                 d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z">
                                              </path>
+                                             <!-- 이쯤 별점 나오게 하기 -->
                                           </svg>
-                                          5.0
-                                          <span>(7)</span>
                                        </span>
                                     </div>
                                  </div>
                                  <div class="footer">
+                                 <!-- 따봉 이미지로 바꾸고 본인이 누를 따봉 표시하기(update or select문 사용하기) -->
                                     <i class="fa fa-heart" aria-hidden="true"></i>
-                                     
+                                    <!-- 하트 옆에 리뷰의 댓글 달린 갯수 넣기(안넣어도 좋음) - 이미지 이동 도움 필요 -->
+                                    <i style="float: left" class="fa fa-heart" aria-hidden="true"></i>
                                  </div>
                               </div>
+                              </a>
                            </div>
                         </div>
                      </div>

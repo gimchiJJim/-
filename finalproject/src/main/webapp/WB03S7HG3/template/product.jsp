@@ -1,29 +1,52 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+<style>
+
+</style>
 <html>
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="Gurdeep singh osahan">
-      <meta name="author" content="Gurdeep singh osahan">
-      <title>Maer - LMS & Freelance Services Marketplace for Businesses HTML Template</title>
-      <!-- Favicon Icon -->
-      <link rel="icon" type="image/png" href="images/fav.svg">
-      <!-- Bootstrap core CSS -->
-      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-      <!-- Font Awesome-->
-      <link href="vendor/fontawesome/css/font-awesome.min.css" rel="stylesheet">
-      <!-- Material Design Icons -->
-      <link href="vendor/icons/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css">
-      <!-- Slick -->
-      <link href="vendor/slick-master/slick/slick.css" rel="stylesheet" type="text/css">
-      <!-- Lightgallery -->
-      <link href="vendor/lightgallery-master/dist/css/lightgallery.min.css" rel="stylesheet">
-      <!-- Select2 CSS -->
-      <link href="vendor/select2/css/select2-bootstrap.css" />
-      <link href="vendor/select2/css/select2.min.css" rel="stylesheet">
-      <!-- Custom styles for this template -->
-      <link href="css/style.css" rel="stylesheet">
-   </head>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Gurdeep singh osahan">
+<meta name="author" content="Gurdeep singh osahan">
+<title>Maer - LMS & Freelance Services Marketplace for Businesses HTML Template</title>
+<!-- Favicon Icon -->
+<link rel="icon" type="image/png" href="images/fav.svg">
+<!-- Bootstrap core CSS -->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome-->
+<link href="vendor/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+<!-- Material Design Icons -->
+<link href="vendor/icons/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css">
+<!-- Slick -->
+<link href="vendor/slick-master/slick/slick.css" rel="stylesheet" type="text/css">
+<!-- Lightgallery -->
+<link href="vendor/lightgallery-master/dist/css/lightgallery.min.css" rel="stylesheet">
+<!-- Select2 CSS -->
+<link href="vendor/select2/css/select2-bootstrap.css" />
+<link href="vendor/select2/css/select2.min.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="css/style.css" rel="stylesheet">
+
+<!-- 추가 -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<style type="text/css">
+#reviewchoose {
+	display: inline-block;
+}
+
+#ingichoose {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+#choishinchoose {
+	font-size: 20px;
+	font-weight: 500;
+}
+</style>
+</head>
    <body>
       <!--    header -->
       <nav class="navbar navbar-expand-lg navbar-light topbar static-top shadow-sm bg-white osahan-nav-top px-0">
@@ -264,19 +287,7 @@
             </ul>
          </div>
       </nav>
-      <!-- Inner Header -->
-      <section class="py-5 bg-dark inner-header">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12 text-center">
-                  <h1 class="mt-0 mb-3 text-white">Product</h1>
-                  <div class="breadcrumbs">
-                     <p class="mb-0 text-white"><a class="text-white" href="#">Home</a>  /  <span class="text-success">Product</span></p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
+      <!-- Inner Header - 없앰 -->
       <!-- End Inner Header -->
       <!--   header -->
       <div class="third-menu filter-options py-3">
@@ -446,17 +457,21 @@
          <div class="view_slider recommended pt-5">
             <div class="container">
                <div class="sorting-div d-flex align-items-center justify-content-between">
-                  <p class="mb-2">463 Services available</p>
+                  <p style="font-size: 24px; font-weight: 700" class="mb-2">지금 뜨는 코멘트</p> 
                   <div class="sorting d-flex align-items-center">
-                     <p>Sortby</p>
-                     <select class="custom-select custom-select-sm border-0 shadow-sm ml-2">
-                        <option>Best Selling</option>
-                        <option>Recommended</option>
-                        <option>Newest Arrivals</option>
-                     </select>
                   </div>
                </div>
-               <h3>Services In Web &amp; Mobile Design</h3>
+               <!-- 최신 리뷰, 인기 리뷰 기능 넣기 -->
+               <div>
+                 <ul style="padding: 0px 0px 16px;"> 
+                   <li id="reviewchoose" style="margin: 0px 8px 0px 0px">
+                     <a id="ingichoose" type="button" href="">인기</a>
+                   </li>
+                   <li id="reviewchoose" style="margin: 0px 8px 0px 0px">
+                     <a id="choishinchoose" type="button" href="">최신</a>
+                   </li>
+                 </ul>
+               </div>
             </div>
             <div class="container">
                <div class="row">
@@ -1036,44 +1051,6 @@
                   </li>
                </ul>
             </nav>
-         </div>
-         <section class="related-links">
-            <h2>Explore More Web &amp; Mobile Design Services</h2>
-            <ul>
-               <li>
-                  <a href="#" class="related-link" target="">Email Templates Design</a>
-               </li>
-               <li>
-                  <a href="#" class="related-link" target="">Landing Pages Design</a>
-               </li>
-               <li>
-                  <a href="#" class="related-link" target="">Mobile Apps Design</a>
-               </li>
-            </ul>
-         </section>
-         <div class="container">
-            <section class="faqs">
-               <h2>Web &amp; Mobile Design FAQs</h2>
-               <ul>
-                  <li>
-                     <h3>What is web design?</h3>
-                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                     </p>
-                  </li>
-                  <li>
-                     <h3>What kinds of projects need web design?</h3>
-                     <p>When an unknown printer took Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                  </li>
-                  <li>
-                     <h3>What makes good web design?</h3>
-                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many.                     </p>
-                  </li>
-                  <li>
-                     <h3>How do I pick the right web designer for me?</h3>
-                     <p>Making it look like readable English It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many.</p>
-                  </li>
-               </ul>
-            </section>
          </div>
       </div>
       <footer class="bg-white">
