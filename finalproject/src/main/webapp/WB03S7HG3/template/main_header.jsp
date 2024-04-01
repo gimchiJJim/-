@@ -21,12 +21,6 @@
             <li class="nav-item">
                <a style="padding-right: 1.5rem" class="nav-link" href="about.html">TV</a>
             </li>
-            <li class="nav-item">
-               <a style="padding-right: 1.5rem" class="nav-link" href="contact.html">책</a>
-            </li>
-            <li class="nav-item dropdown">
-               <a style="padding-right: 1.5rem" class="nav-link" href="about.html">웹툰</a>
-            </li>
          </ul>
       </div>
       <!-- Topbar Navbar -->

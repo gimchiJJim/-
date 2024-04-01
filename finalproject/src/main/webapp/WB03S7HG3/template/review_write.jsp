@@ -15,9 +15,16 @@
 	margin-bottom: 15px;
 }
 --%>
+.spoiler {
+	margin-bottom: 1rem;
+}
 
 .main-review-title {
 	margin-bottom: 3rem;
+}
+
+.col-lg-4 col-md-4 {
+	padding-left: 0px;
 }
 </style>
 </head>
@@ -63,12 +70,6 @@
                   </li>
                   <li class="nav-item">
                      <a style="padding-right: 1.5rem" class="nav-link" href="about.html">TV</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="padding-right: 1.5rem" class="nav-link" href="contact.html">책</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                     <a style="padding-right: 1.5rem" class="nav-link" href="about.html">웹툰</a>
                   </li>
                </ul>
             </div>
@@ -122,7 +123,7 @@
          </div>
       </nav>
       <!-- 헤더 끝 -->
-	  <section class="py-5">
+	  <section class="py-5" style="padding-top: 8rem !important; padding-bottom: 8rem !important;">
          <div class="container">
             <div class="rowNo">
                <div class="col-lg-12 col-md-12 section-title text-left mb-4">
@@ -130,7 +131,7 @@
                </div>
                <form class="col-lg-12 col-md-12" name="sentMessage">
                   <div class="rowNo">
-                     <div class="control-group form-group col-lg-4 col-md-4">
+                     <div style="padding-left: 0px;" class="control-group form-group col-lg-4 col-md-4">
                      <form>
                      <input type="radio" class="comment-choose" value="option1" checked="checked">
                      <label for="option1">명대사</label>
@@ -140,9 +141,9 @@
                      <label for="option1">긴 리뷰</label>
                      </form>
                      <button onclick="clearSelection()">Clear Selection</button>
+                     <button type="button" class="spoiler">스포일러 체크</button>
                         <div class="controls">
-                           <label>제목(request로 받기)<span class="text-danger">*</span></label>
-                           <input type="text" class="form-control" required>
+                           <input placeholder="제목(request로 받기)" type="text" class="form-control" required>
                         </div>
                      </div>
                   </div>
@@ -154,8 +155,8 @@
                      </div>
                     </header>
                   </div>
-                  <button type="button" class="spoiler">스포일러 체크</button>
-                  <button type="submit" class="btn btn-success">저장</button>
+                  <button type="submit" class="btn btn-cancel">취소</button><!-- 누를시 이전 페이지로 이동 -->
+                  <button type="submit" class="btn btn-success">저장</button><!-- 누를시 저장이 되고 이전 페이지로 이동 or 내가 쓴 리뷰 페이지 보기 -->
                </form>
             </div>
          </div>
@@ -229,6 +230,26 @@
       <!-- Custom -->
       <script src="js/custom.js"></script>
       <script>
+      var beforeChecked = -1;
+ 
+      $(function(){
+         $(document).on("click", "input[type=radio]", function(e) {
+            var index = $(this).parent().index("label");
+    
+            if(beforeChecked == index) {
+    
+            beforeChecked = -1;
+    
+            $(this).prop("checked", false);
+    
+            }else{
+    
+            beforeChecked = index;
+    
+            }
+    
+         });
+    
 		function clearSelection() {
 			// 체크된 라디오 버튼의 checked 속성을 false로 설정하여 체크 해제
 			document.getElementById("option1").checked = false;
