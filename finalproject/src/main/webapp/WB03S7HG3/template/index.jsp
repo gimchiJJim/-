@@ -27,6 +27,7 @@
       <link href="css/style.css" rel="stylesheet">
    </head>
    <body>
+   <!-- 헤더 시작 -->
       <nav class="navbar navbar-expand-lg navbar-light topbar static-top shadow-sm bg-white osahan-nav-top px-0">
          <div class="container">
             <!-- Sidebar Toggle (Topbar) -->
@@ -87,13 +88,13 @@
                   </div>
                </li>
                <li class="nav-item dropdown no-arrow no-caret mr-3 dropdown-notifications">
-                  <!-- 로그인 -->
+                  <!-- 로그인 - href 연결하기 -->
                   <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownMessages" href="javascript:void(0);" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                        	로그인
                   </a>
                </li>
                <li class="nav-item dropdown no-arrow no-caret dropdown-user">
-                  <!-- 회원가입 -->
+                  <!-- 회원가입 - href 연결하기 -->
                   <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage" href="javascript:void(0);" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   회원가입 
                   </a>
@@ -101,6 +102,7 @@
             </ul>
          </div>
       </nav>
+      <!-- 헤더 끝 -->
       <!-- Navigation -->
       <nav class="navbar navbar-expand-lg navbar-light bg-white osahan-nav-mid px-0 border-top shadow-sm">
          <div class="container">
@@ -314,11 +316,12 @@
          </div>
       </div>
       <!-- get started -->
-      <!--       footer -->
+      <!-- 풋터 시작 -->
       <footer class="bg-white">
          <div class="container">
             <div class="d-flex justify-content-between">
                <div class="footer-list">
+               <!-- 회사 안내에 contact.html 사용할지 정하기 -->
                   <td><a href="#" style="color:black">서비스 이용약관 &nbsp; |</a></td>
                   <td><a href="#" style="color:black">&nbsp; 개인정보 처리방침 &nbsp; |</a></td>
                   <td><a href="#" style="color:black">&nbsp; 회사 안내 &nbsp; |</a></td>
@@ -443,5 +446,6 @@
       <script src="vendor/select2/js/select2.min.js"></script>
       <!-- Custom -->
       <script src="js/custom.js"></script>
+      <!-- 풋터 끝 -->
    </body>
 </html>

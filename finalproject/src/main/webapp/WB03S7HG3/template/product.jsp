@@ -36,14 +36,22 @@
 	display: inline-block;
 }
 
-#ingichoose {
+#ingichoose {	
 	font-size: 20px;
 	font-weight: 500;
+	border: 1px solid black;
+	padding: 5px 12px;
+	box-sizing: border-box;
+	border-radius: 24px;
 }
 
 #choishinchoose {
 	font-size: 20px;
 	font-weight: 500;
+	border: 1px solid black;
+	padding: 5px 12px;
+	box-sizing: border-box;
+	border-radius: 24px;
 }
 </style>
 </head>
@@ -461,7 +469,7 @@
                   <div class="sorting d-flex align-items-center">
                   </div>
                </div>
-               <!-- 최신 리뷰, 인기 리뷰 기능 넣기 -->
+               <!-- 최신 리뷰, 인기 리뷰 기능 넣기 - href -->
                <div>
                  <ul style="padding: 0px 0px 16px;"> 
                    <li id="reviewchoose" style="margin: 0px 8px 0px 0px">
