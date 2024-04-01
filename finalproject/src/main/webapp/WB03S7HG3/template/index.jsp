@@ -338,69 +338,6 @@
                   <br>
 	              <td><p style="margin-top:10px; color:black">사업자 등록 번호 1577-1577</p></td>
                </div>
-               <!--  
-               <div class="footer-list">
-                  <h2>About</h2>
-                  <ul class="list">
-                     <li><a href="#">Careers</a></li>
-                     <li><a href="#">Press &amp; News</a></li>
-                     <li><a href="#">Partnerships</a></li>
-                     <li><a href="#">Privacy Policy</a></li>
-                     <li><a href="#">Terms of Service</a></li>
-                     <li><a href="#">Intellectual Property Claims</a></li>
-                     <li><a href="#" target="_blank">Investor Relations</a></li>
-                  </ul>
-               </div>
-               -->
-               <!--  
-               <div class="footer-list">
-                  <h2>Support</h2>
-                  <ul class="list">
-                     <li><a href="#" >Help &amp; Support</a></li>
-                     <li><a href="#">Trust &amp; Safety</a></li>
-                     <li><a href="#" >Selling on Omelet
-                        </a>
-                     </li>
-                     <li><a href="#">Buying on Omelet
-                        </a>
-                     </li>
-                  </ul>
-               </div>
-               <div class="footer-list">
-                  <h2>Community</h2>
-                  <ul class="list">
-                     <li><a href="#">Events</a></li>
-                     <li><a href="#">Blog</a></li>
-                     <li><a href="#">Forum</a></li>
-                     <li><a href="#">Community Standards</a></li>
-                     <li><a href="#">Podcast</a></li>
-                     <li><a href="#">Affiliates</a></li>
-                     <li><a href="#">Invite a Friend</a></li>
-                     <li><a href="#">Become a Seller</a></li>
-                     <li><a href="#" >Omelet
-                        Elevate<small>Exclusive Benefits</small></a>
-                     </li>
-                  </ul>
-               </div>
-               <div class="footer-list">
-                  <h2>More From Omelet</h2>
-                  <ul class="list">
-                     <li><a href="#">Omelet
-                        Pro</a>
-                     </li>
-                     <li><a href="#">Omelet
-                        Studios</a>
-                     </li>
-                     <li><a href="#">Omelet
-                        Logo Maker</a>
-                     </li>
-                     <li><a href="#">Get Inspired</a></li>
-                     <li><a href="#">ClearVoice<small>Content Marketing</small></a></li>
-                     <li><a href="#">AND CO<small>Invoice Software</small></a></li>
-                     <li><a href="#">Learn<small>Online Courses</small></a></li>
-                  </ul>
-               </div>
-               -->
             </div>
             <div class="copyright">
                <div class="logo">
