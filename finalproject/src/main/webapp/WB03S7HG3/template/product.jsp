@@ -478,6 +478,15 @@
                    <li id="reviewchoose" style="margin: 0px 8px 0px 0px">
                      <a id="choishinchoose" type="button" href="">최신</a>
                    </li>
+                   <li id="reviewchoose" style="margin: 0px 8px 0px 0px">
+                     <a id="choishinchoose" type="button" href="">명대사</a>
+                   </li>
+                   <li id="reviewchoose" style="margin: 0px 8px 0px 0px">
+                     <a id="choishinchoose" type="button" href="">짧은글</a>
+                   </li>
+                   <li id="reviewchoose" style="margin: 0px 8px 0px 0px">
+                     <a id="choishinchoose" type="button" href="">긴글</a>
+                   </li>
                  </ul>
                </div>
             </div>

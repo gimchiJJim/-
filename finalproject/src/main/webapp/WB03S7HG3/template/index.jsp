@@ -83,13 +83,13 @@
                </li>
                <li class="nav-item dropdown no-arrow no-caret mr-3 dropdown-notifications">
                   <!-- 로그인 - href 연결하기 -->
-                  <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownMessages" href="javascript:void(0);" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownMessages" href="login.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                        	로그인
                   </a>
                </li>
                <li class="nav-item dropdown no-arrow no-caret dropdown-user">
                   <!-- 회원가입 - href 연결하기 -->
-                  <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage" href="javascript:void(0);" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage" href="register.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   회원가입 
                   </a>
                </li>
@@ -179,7 +179,7 @@
                                     </span>
                                  </div>
                                  <!-- 리뷰 누를시 리류 메인 페이지 이동 -->
-                                 <a href="product.html">
+                                 <a href="product.jsp"> 
                                  <h3 style="margin-bottom: -5px">리뷰 : 너무 재밌어용</h3>
                                  </a>
                                  <div class="content-info">
