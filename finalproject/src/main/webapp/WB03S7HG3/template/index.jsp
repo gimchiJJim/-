@@ -2,30 +2,91 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="Gurdeep singh osahan">
-      <meta name="author" content="Gurdeep singh osahan">
-      <title>Omelet - LMS & Freelance Services Marketplace for Businesses HTML Template</title>
-      <!-- Favicon Icon -->
-      <link rel="icon" type="image/png" href="images/fav.svg">
-      <!-- Bootstrap core CSS -->
-      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-      <!-- Font Awesome-->
-      <link href="vendor/fontawesome/css/font-awesome.min.css" rel="stylesheet">
-      <!-- Material Design Icons -->
-      <link href="vendor/icons/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css">
-      <!-- Slick -->
-      <link href="vendor/slick-master/slick/slick.css" rel="stylesheet" type="text/css">
-      <!-- Lightgallery -->
-      <link href="vendor/lightgallery-master/dist/css/lightgallery.min.css" rel="stylesheet">
-      <!-- Select2 CSS -->
-      <link href="vendor/select2/css/select2-bootstrap.css" />
-      <link href="vendor/select2/css/select2.min.css" rel="stylesheet">
-      <!-- Custom styles for this template -->
-      <link href="css/style.css" rel="stylesheet">
-   </head>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="description" content="Gurdeep singh osahan">
+   <meta name="author" content="Gurdeep singh osahan">
+   <title>Omelet - LMS & Freelance Services Marketplace for Businesses HTML Template</title>
+   <!-- Favicon Icon -->
+   <link rel="icon" type="image/png" href="images/fav.svg">
+   <!-- Bootstrap core CSS -->
+   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Font Awesome-->
+   <link href="vendor/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+   <!-- Material Design Icons -->
+   <link href="vendor/icons/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css">
+   <!-- Slick -->
+   <link href="vendor/slick-master/slick/slick.css" rel="stylesheet" type="text/css">
+   <!-- Lightgallery -->
+   <link href="vendor/lightgallery-master/dist/css/lightgallery.min.css" rel="stylesheet">
+   <!-- Select2 CSS -->
+   <link href="vendor/select2/css/select2-bootstrap.css" />
+   <link href="vendor/select2/css/select2.min.css" rel="stylesheet">
+   <!-- Custom styles for this template -->
+   <link href="css/style.css" rel="stylesheet">
+<style type="text/css">
+.col-md-6 {
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+	max-width: 50%;
+	position: relative;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.p-4 {
+	padding: 1.5rem!important;	
+}
+
+.align-items-center {
+	-ms-flex-align: center!important;
+	align-items: center!important;
+}
+
+.d-flex {
+	display: flex!important;
+}
+
+.ml-4, .mx-4 {
+	margin-left: 1.5rem!important;
+}
+
+.font-weight-normal {
+	font-weight: 400!important;
+}
+
+.mb-3, .my-3 {
+	margin-bottom: 1rem!important;
+}
+
+.mb-0, .my-0 {
+	margin-bottom: 0!important;
+}
+
+.border-top {
+	border-top: 1px solid #eaebec!important;
+}
+
+.p-4 {
+	padding: 1.5rem!important;
+}
+
+.overflow-hidden {
+	overflow: hidden !important;
+}
+
+.align-items-center {
+	align-items: center!important;
+}
+
+.border-top {
+	border-top: 1px solid #dee2e6!important;
+}
+</style>
+</head>
+   
    <body>
    <!-- 헤더 시작 -->
       <nav class="navbar navbar-expand-lg navbar-light topbar static-top shadow-sm bg-white osahan-nav-top px-0">
@@ -126,7 +187,7 @@
 					               <div class="col-md-6">
 					                  <div class="box shadow-sm rounded bg-white mb-4">
 					                     <div class="p-4 d-flex align-items-center">
-					                     	<i class="fa-solid fa-thumbs-up"></i>
+					                     	<!-- <img src="images/thumbs-up-regular.svg" /> -->
 					                        <i class="mdi mdi-message-text-outline display-4"></i>
 					                        <div class="ml-4">
 					                        <!-- <img src="images/thumbs-up-solid.svg" /> 업 누른 이미지 -->
