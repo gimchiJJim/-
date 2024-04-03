@@ -102,32 +102,12 @@
          <div class="container">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            </button> 
-            <!--
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-               <ul class="navbar-nav">
-                  <li class="nav-item dropdownx">
-                     <a class="nav-link" href="about.html">TV</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="about.html">TV</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="contact.html">책</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                     <a class="nav-link" href="about.html">TV</a>
-                  </li>
-               </ul>
-            </div>
-           
-         -->
+            </button>
          </div>
       </nav>
       <!-- Begin Page Content -->
       <!--       social -->
       <ul class="trusted-by bg-white border-bottom">
-         
       </ul> 
       <!--       social -->
       <!--       recent -->
@@ -139,72 +119,35 @@
                   <div class="col-lg-12">
                      <h3>최신 리뷰</h3>
                      <div class="view recent-slider recommended-slider">
-                        <div>
-                           <div style="width: 300px" class="inner-slider">
-                              <a href="product.html"> </a>
-                              <div class="inner-wrapper">
-                              <a href="product.html"> </a>
-                                 <div class="d-flex align-items-center">
-                                    <span class="seller-image">
-                                    <svg style="float: right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1792" width="15" height="15">
-                                      <path style="float: right" fill="currentColor"
-                                         d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z">
-                                      </path> 
-                                    </svg> 
-                                    <img style="margin: 50px 10px 25px 10px; border-radius: 0px;" src="images/avengers.png">  
-                                    <!-- 회원 이름 옆에 회원 이미지 넣기 
-                                    <img style="margin: 20px" src="images/omelet.png">
-                                    -->
-                                    </span>
-                                    <!-- 이름과 회원 이미지 사진 누를시 리뷰 쓴 회원 페이지 이동 -->
-                                    <!-- 홍길동 부분에 p태그 추가 했는데 추후 다시 없애고, 리뷰 : 재밌어용 부분의 마진도 없앨지 고민 -->
-                                    <a href="profile.html"><p>홍길동</p>
-                                    <i class="fa fa-heart" aria-hidden="true"></i>
-                                    </a>
-                                    <!-- 이름 옆에 별점 넣기 - div 안됨 -->
-                                    <div style="float: right">
-                                    <!--
-                                    <svg style="float: right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1792" width="15" height="15">
-                                      <path style="float: right" fill="currentColor"
-                                         d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z">
-                                      </path> 
-                                    </svg>
-                                    --> 
-                                    </div>
-                                    <!--
-                                    <span class="level hint--top level-one-seller">
-                                    Level 1 Seller
-                                    </span>
-                                    -->
-                                    </span>
-                                 </div>
-                                 <!-- 리뷰 누를시 리류 메인 페이지 이동 -->
-                                 <a href="product.jsp"> 
-                                 <h3 style="margin-bottom: -5px">리뷰 : 너무 재밌어용</h3>
-                                 </a>
-                                 <div class="content-info">
-                                    <div class="rating-wrapper">
-                                       <span class="gig-rating text-body-2">
-                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1792" width="15" height="15">
-                                             <path fill="currentColor"
-                                                d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z">
-                                             </path>
-                                             <!-- 이쯤 별점 나오게 하기 -->
-                                          </svg>
-                                       </span>
-                                    </div>
-                                 </div>
-                                 <div class="footer">
-                                 <!-- 따봉 이미지로 바꾸고 본인이 누를 따봉 표시하기(update or select문 사용하기) -->
-                                    <i class="fa fa-heart" aria-hidden="true"></i>
-                                    <!-- 하트 옆에 리뷰의 댓글 달린 갯수 넣기(안넣어도 좋음) - 이미지 이동 도움 필요 -->
-                                    <i style="float: left" class="fa fa-heart" aria-hidden="true"></i>
-                                 </div>
-                              </div>
-                              </a>
-                           </div>
-                        </div>
-                     </div>
+	                     <div class="inner-slider">
+		                     <div class="container mx-auto col-md-8">
+					            <div class="row">
+					               <!-- Main Content -->
+					               <div class="col-md-6">
+					                  <div class="box shadow-sm rounded bg-white mb-4">
+					                     <div class="p-4 d-flex align-items-center">
+					                     	<i class="fa-solid fa-thumbs-up"></i>
+					                        <i class="mdi mdi-message-text-outline display-4"></i>
+					                        <div class="ml-4">
+					                        <!-- <img src="images/thumbs-up-solid.svg" /> 업 누른 이미지 -->
+					                        <!-- <img src="images/thumbs-up-regular.svg" /> 업 기본 이미지 -->
+					                        <!-- <img src="images/thumbs-down-solid.svg" /> 다운 누른 이미지 -->
+					                        <!-- <img src="images/thumbs-down-regular.svg" /> 다운 기본 이미지 -->
+					                           <h5 class="font-weight-normal text-dark mb-3 mt-0">Help Forum</h5>
+					                           <p class="mb-0 text-muted">Find the answer to any question, from the basics all the way to advanced tips and tricks!
+					                           </p>
+					                        </div>
+					                     </div>
+					                     <div class="overflow-hidden border-top d-flex align-items-center p-4">
+					                        <a class="font-weight-bold d-block" href="#"> Maer Help Forum. </a>
+					                        <i class="mdi mdi-arrow-right ml-auto text-primary"></i>
+					                     </div>
+					                  </div>
+					               </div>
+					            </div>
+					         </div>
+					      </div>
+	                  </div>
                   </div>
                </div>
             </div>
@@ -223,8 +166,7 @@
                            <a href="product-detail.html">
                            <img style="height: 300px" class="img-fluid" src="images/list/v1.png" />
                            </a>
-                           <div class="inner-slider"> 
-                                
+                           <div class="inner-slider">    
                            </div> 
                         </div>
                      </div>
@@ -240,14 +182,13 @@
             <div class="container">
                <div class="row">
                   <div class="col-lg-12">
-                     <h3>인기 영화2</h3>
+                     <h3>평균 별점이 높은 영화</h3>
                      <div class="view recent-slider recommended-slider">
                         <div>
                            <a href="product-detail.html">
                            <img style="height: 300px" class="img-fluid" src="images/list/v1.png" />
                            </a>
                            <div class="inner-slider">
-                                
                            </div>
                         </div>
                      </div>
@@ -263,14 +204,13 @@
             <div class="container">
                <div class="row">
                   <div class="col-lg-12">
-                     <h3>인기 영화3</h3>
+                     <h3>많은 리뷰 달린 작품</h3>
                      <div class="view recent-slider recommended-slider">
                         <div>
                            <a href="product-detail.html">
                            <img style="height: 300px" class="img-fluid" src="images/list/v1.png" />
                            </a>
                            <div class="inner-slider">
-                                
                            </div>
                         </div>
                      </div>
@@ -293,7 +233,6 @@
                            <img style="height: 300px" class="img-fluid" src="images/list/v1.png" />
                            </a>
                            <div class="inner-slider">
-                                
                            </div>
                         </div>
                      </div>
