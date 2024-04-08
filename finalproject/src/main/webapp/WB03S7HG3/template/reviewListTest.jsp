@@ -139,7 +139,7 @@
 }
 /* rowspan에 의해 크기가 변경되도록 CSS 수정 */
 .rowspan-3 {
-    height: 72px; /* 3개의 행의 높이 (24px * 3) */
+    height: 72px; /* 3개의 행의 높이 (24px * 3) */ 
 }
 </style>
 </head>
