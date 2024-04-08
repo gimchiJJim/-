@@ -26,6 +26,18 @@
 .col-lg-4 col-md-4 {
 	padding-left: 0px;
 }
+
+.btn btn-cancel {
+	display: flex;
+    justify-content: space-between; /* 내부 요소를 좌우로 정렬합니다. */
+    align-items: center; /* 수직 중앙 정렬합니다. */
+}
+
+.btn btn-success {
+	display: flex;
+	justify-content: space-between; /* 내부 요소를 좌우로 정렬합니다. */
+	align-items: center; /* 수직 중앙 정렬합니다. */
+}
 </style>
 </head>
 <body>
@@ -54,74 +66,6 @@
 </head>
 <body>
    <!-- 헤더 시작 -->
-      <nav class="navbar navbar-expand-lg navbar-light topbar static-top shadow-sm bg-white osahan-nav-top px-0">
-         <div class="container">
-            <!-- Sidebar Toggle (Topbar) -->
-            <a class="navbar-brand" href="index.html"><img src="images/omelet.png" alt=""></a>
-            <!-- Topbar Search -->
-            <div class="container">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button> 
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-               <ul class="navbar-nav">
-                  <li class="nav-item dropdownx">
-                     <a style="padding-right: 1.5rem" class="nav-link" href="about.html">영화</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="padding-right: 1.5rem" class="nav-link" href="about.html">TV</a>
-                  </li>
-               </ul>
-            </div>
-            <!-- Topbar Navbar -->
-            <ul class="navbar-nav align-items-center ml-auto">
-               <li class="nav-item dropdown no-arrow no-caret mr-3 dropdown-notifications d-sm-none">
-                  <a class="btn btn-icon btn-transparent-dark dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-search fa-fw"></i>
-                  </a>
-                  <!-- Dropdown - Messages -->
-                  <div class="dropdown-menu dropdown-menu-right p-3 shadow-sm animated--grow-in" aria-labelledby="searchDropdown">
-                     <form class="form-inline mr-auto w-100 navbar-search">
-                        <div class="input-group">
-                           <input type="text" class="form-control bg-light border-0 small" placeholder="Find Services..." aria-label="Search" aria-describedby="basic-addon2">
-                           <div class="input-group-append">
-                              <button class="btn btn-primary" type="button">
-                              <i class="fa fa-search fa-sm"></i>
-                              </button>
-                           </div>
-                        </div>
-                     </form>
-                  </div>
-               </li>
-               <form class="d-none d-sm-inline-block form-inline mr-auto my-2 my-md-0 mw-100 navbar-search">
-               <div class="input-group">
-                  <input type="text" class="form-control bg-white small" placeholder="Find Services..." aria-label="Search" aria-describedby="basic-addon2">
-                  <div class="input-group-append">
-                     <button class="btn btn-success" type="button">
-                     <i class="fa fa-search fa-sm"></i>
-                     </button>
-                  </div>
-               </div>
-            </form>
-               <li class="nav-item dropdown no-arrow no-caret mr-3 dropdown-notifications">
-                  <div class="dropdown-menu dropdown-menu-right border-0 shadow animated--fade-in-up" aria-labelledby="navbarDropdownAlerts">
-                  </div>
-               </li>
-               <li class="nav-item dropdown no-arrow no-caret mr-3 dropdown-notifications">
-                  <!-- 로그인 - href 연결하기 -->
-                  <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownMessages" href="javascript:void(0);" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                       	로그인
-                  </a>
-               </li>
-               <li class="nav-item dropdown no-arrow no-caret dropdown-user">
-                  <!-- 회원가입 - href 연결하기 -->
-                  <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage" href="javascript:void(0);" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  회원가입 
-                  </a>
-               </li>
-            </ul>
-         </div>
-      </nav>
       <!-- 헤더 끝 -->
 	  <section class="py-5" style="padding-top: 8rem !important; padding-bottom: 8rem !important;">
          <div class="container">
@@ -132,13 +76,13 @@
                <form class="col-lg-12 col-md-12" name="sentMessage">
                   <div class="rowNo">
                      <div style="padding-left: 0px;" class="control-group form-group col-lg-4 col-md-4">
-                     <form>
+                     <form style="">
                      <input type="radio" class="comment-choose" value="option1" checked="checked">
-                     <label for="option1">명대사</label>
+                     <label for="option1">명대사</label>&nbsp;
                      <input type="radio" class="comment-choose" value="option2">
-                     <label for="option1">짧은 리뷰</label>
+                     <label for="option1">짧은 리뷰</label>&nbsp;
                      <input type="radio" class="comment-choose" value="option3">
-                     <label for="option1">긴 리뷰</label>
+                     <label for="option1">긴 리뷰</label>&nbsp;
                      </form>
                      <button onclick="clearSelection()">Clear Selection</button>
                      <button type="button" class="spoiler">스포일러 체크</button>
@@ -163,57 +107,7 @@
       </section>
       <!-- get started -->
       <!-- 풋터 시작 -->
-      <footer class="bg-white">
-         <div class="container">
-            <div class="d-flex justify-content-between">
-               <div class="footer-list">
-               <!-- 회사 안내에 contact.html 사용할지 정하기 -->
-                  <td><a href="#" style="color:black">서비스 이용약관 &nbsp; |</a></td>
-                  <td><a href="#" style="color:black">&nbsp; 개인정보 처리방침 &nbsp; |</a></td>
-                  <td><a href="#" style="color:black">&nbsp; 회사 안내 &nbsp; |</a></td>
-                  <br>
-	              <br>
-	              <td><a style="color:black;">고객센터 &nbsp; |</a></td>
-				  <td><a href="#" style="font-size:15px; color:black">Omelet@itwill.xyz</a></td>
-	              <br>
-	              <br>
-	              <td><a style="color:black;">주식회사 오믈렛 &nbsp; |</a></td>
-	              <td><a style="color:black;">&nbsp; 대표 오창중&박선영 &nbsp; |</a></td>
-	              <td><a style="color:black;">&nbsp; 서울 서초구 강남대로 341</a></td>
-                  <br>
-                  <br>
-	              <td><p style="margin-top:10px; color:black">사업자 등록 번호 1577-1577</p></td>
-               </div>
-            </div>
-            <div class="copyright">
-               <div class="logo">
-                  <a href="index.html">
-                  <img src="images/omelet.png">
-                  </a>
-               </div>
-               <p>© Copyright 2024 Omelet. All Rights Reserved
-               </p>
-               <ul class="social">
-                  <li>
-                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                  </li>
-                  <li>
-                     <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                  </li>
-                  <li>
-                     <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                  </li>
-                  <li>
-                     <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
-                  </li>
-                  <li>
-                     <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </footer>
-      <!--       footer-->
+      <!-- footer-->
       <!-- Bootstrap core JavaScript -->
       <script src="vendor/jquery/jquery.min.js"></script>
       <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -257,6 +151,5 @@
 			document.getElementById("option3").checked = false;
 		}
 	  </script>
-      <!-- 풋터 끝 -->
 </body>
 </html>
