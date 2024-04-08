@@ -224,11 +224,11 @@ $("img").filter(".wishHeart").click(function() {
 	var productNum = $(this).attr("id");
 	var title = $(this).attr("title");
 	
-	<%-- 로그인 하지 않았을 시 로그인 페이지로 이동--%>
+	<%-- 로그인 하지 않았을 시 로그인 페이지로 이동
 	if(<%=login%>==0){
 		location.href="<%=request.getContextPath()%>/template/main.jsp?group=template&worker=login";
 	} else {
-		<%-- 로그인 시 좋아요 눌렀을 시 동작되는 ajax--%>
+		 로그인 시 좋아요 눌렀을 시 동작되는 ajax
 		$.ajax({
 			type: "get",
 		    url : "<%=request.getContextPath()%>/template/main_like_action.jsp?reviewNo="+reviewNo+"&title="+title,
@@ -237,11 +237,11 @@ $("img").filter(".wishHeart").click(function() {
 		    	var code = $(xmlDoc).find("code").text();
 		    	if(code=="success"){
 		    		var titleName = $(xmlDoc).find("title").text();
-		    		$("#"+productNum).attr("src", "<%=request.getContextPath()%>/images/icon/heart-red.png")<%-- 아직 업 이미지 안 넣음 --%>
+		    		$("#"+productNum).attr("src", "<%=request.getContextPath()%>/images/icon/heart-red.png") 아직 업 이미지 안 넣음 
 		    		$("#"+productNum).attr("title", titleName);
 		    	} else{
 		    		var titleName = $(xmlDoc).find("title").text();
-		    		$("#"+productNum).attr("src", "<%=request.getContextPath()%>/images/icon/heart-black.png")<%-- 아직 다운 이미지 안 넣음 --%>
+		    		$("#"+productNum).attr("src", "<%=request.getContextPath()%>/images/icon/heart-black.png") 아직 다운 이미지 안 넣음
 		    		$("#"+productNum).attr("title", titleName);
 		    	}
 		    },
@@ -251,6 +251,7 @@ $("img").filter(".wishHeart").click(function() {
 		});
 	}	
 })
+--%>
 </script>
 </body>
 </html>
