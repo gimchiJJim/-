@@ -155,6 +155,10 @@
                         <i class="mdi mdi-message-text-outline display-4"></i>
                         <div class="ml-4">
                            <h5 class="font-weight-normal text-dark mb-3 mt-0">작품 제목</h5>
+                           <div class="writer-name">
+                           		
+                     				<p class="name">이름</p>
+                     			</div>
                            <p class="mb-0 text-muted">여기 부분이 리뷰의 내용입니다.
                               ...asdfasdfkjasdkjfasdfiwefmeklflksdfiwsefk efijsdfkj sfsdlkf jsdfslkd fsdf sdflisd flksd jfsdflskdj fsdflksjd fsdlkfj 
                               sdlkfsdfkl;j sdfkl jsdfkl; jsdlkfj sdf jsdfkl jsdfkl jd fasd fasdf asd fasd fasd fafd sd fasd fasad fs asdf sdaf asdf

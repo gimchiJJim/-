@@ -226,10 +226,12 @@
 					<input type="button" name="qaImage">
 					<input type="checkbox" name="qaImage">
 				</td>
-				<td class="td_review">햄버거이미지</td>
+				<td class="td_review">
+					<img alt="" src="images/ellipsis-solid.svg">
+				</td>
 			</tr>
 		</table>
-		
+<%--
 <table>
     <tr>
         <td rowspan="2">행 1, 열 1</td>
@@ -276,6 +278,7 @@
     </tr>
 </table>
 </div>
+--%>
 <div id="message" style="color: red;"></div>
 </body>
 </html>
